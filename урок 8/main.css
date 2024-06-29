@@ -1,0 +1,229 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nav__logo{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.nav__list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.list__item{
+    text-transform: uppercase;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+color: #ffffff;
+}
+header{
+    background-image: url('./img/Урок.png');
+    background-repeat: no-repeat;
+    padding-bottom: 650px;
+}
+.header__h1{
+    font-family: Montserrat;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.51px;
+color: #ffffff;
+width: 660px;
+}
+.header__p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 40px;
+color: #ffffff;
+width: 660px;
+}
+.btn{
+    background-color: #FF8A00;
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 28px;
+border-radius: 7px;
+border: none;
+margin-top: 15px;
+}
+.header{
+    margin-top: 210px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/* main */
+.section__first__h1{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.88px;
+color: #FF8A00;
+width: 650px;
+text-transform: uppercase;
+}
+.section__first__p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 40px;
+color: #ffffff;
+}
+.section__first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 180px;
+}
+.cards{
+    margin-top: 180px;
+}
+.card{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.card__img{
+    width: 950px;
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 650px;
+}
+.card__h1{
+    text-transform: uppercase;
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 700;
+line-height: 43.88px;
+color: #FF8A00;
+margin-left: 30px;
+}
+.card__p{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 40px;
+    color: #ffffff;
+    padding: 15px;
+    margin-left: 30px;
+}
+.card_btn{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ff8801;
+    margin-left: 30px;
+}
+.img__1{
+    margin-top: 150px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.img__2{
+    width: 870px;
+height: 480px;
+top: 4312px;
+left: 80px;
+gap: 0px;
+opacity: 0px;
+}
+.img__3{
+    width: 870px;
+height: 480px;
+top: 4312px;
+left: 970px;
+gap: 0px;
+opacity: 0px;
+}
+.img__4{
+    width: 870px;
+height: 480px;
+top: 4312px;
+left: 1860px;
+gap: 0px;
+opacity: 0px;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 180px;
+}
+.text__h1{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    color: #ffffff;
+    width: 650px;
+    text-transform: uppercase;
+}
+.text__p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 40px;
+color: #ffffff;
+text-transform: uppercase;
+}
+.img__car{
+    margin-top: 180px;
+}
+.img__44{
+    margin-top: 150px;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.boss{
+    display: flex;
+    justify-content: space-between;
+}
+.subordinate_01{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    color: #ffffff;
+}
+.subordinate_02{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+color: #ffffff;
+}
+.subordinate_03{
+    display: flex;
+    align-items: center;
+    
+}
+
+
